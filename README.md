@@ -16,6 +16,8 @@
 
 [open_sours/机甲硬件布置.png at main · egd060708/open_sours (github.com)](https://github.com/egd060708/open_sours/blob/main/机甲硬件布置.png)
 
+[![O2wJld.png](https://s1.ax1x.com/2022/05/15/O2wJld.png)](https://imgtu.com/i/O2wJld)
+
 ​		同时，自主设计的降压模块也为芯片提供了稳定的供电。
 
 ### 电控软件
@@ -236,6 +238,8 @@ int Velocity_Restrict(int PWM_P, int TargetVelocity)
 ​		
 
 #### 4、底盘运动解算
+
+​		麦轮解算知识主要来源于http://t.csdn.cn/yFFut
 
 ​		底盘使用麦克纳母轮实现全向运动
 
@@ -469,7 +473,7 @@ void Linux_to_Cradle(int SE_Select)//自瞄函数
 
 #### 6、stm32与树莓派的串口通信数据传输
 
-​		STM32通过串口通信的方式以**16进制方式收发数组**与树莓派实现通信
+​		STM32通过串口通信的方式以**16进制方式收发数组**与树莓派实现通信，传输方便高效，日后会进一步改进成DMA接收数据
 
 ​		相关变量
 
